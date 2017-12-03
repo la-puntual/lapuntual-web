@@ -12,7 +12,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 700;
+    font-weight: 400;
     font-family: 'Montserrat'; }
 
 hr.star-light,
@@ -40,17 +40,17 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #721c24 ; }
+    background-color: #4b4b4b ; }
 
 hr.star-dark {
-    border-color: #2C3E50; }
+    border-color: #4c4c4c; }
 
 hr.star-dark:after {
-    color: #2C3E50;
+    color: #4c4c4c;
     background-color: white; }
 
 section {
-    padding: 6rem 0; }
+    padding: 3rem 0; }
 section h2 {
     font-size: 2.25rem;
     line-height: 2rem; }
@@ -83,7 +83,7 @@ section h2 {
 #mainNav {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    font-weight: 700;
+    font-weight: 400;
     font-family: 'Montserrat'; }
 #mainNav .navbar-brand {
     color: #fff; }
@@ -93,11 +93,11 @@ section h2 {
 #mainNav .navbar-nav li.nav-item a.nav-link {
     color: #fff; }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-    color: #721c24 ; }
+    color: #4b4b4b ; }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
     color: #fff; }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-    color: #721c24 ; }
+    color: #4b4b4b ; }
 #mainNav .navbar-toggler {
     font-size: 80%;
     padding: 0.8rem; }
@@ -118,10 +118,10 @@ section h2 {
         margin-top: 0; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
         color: #fff;
-        background: #721c24 ; }
+        background: #4b4b4b ; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
         color: #fff;
-        background: #721c24 ; }
+        background: #4b4b4b ; }
     #mainNav.navbar-shrink {
         padding-top: 0.5rem;
         padding-bottom: 0.5rem; }
@@ -153,14 +153,13 @@ header.masthead h2 {
 .portfolio .portfolio-item {
     position: relative;
     display: block;
-    max-width: 25rem;
     margin-bottom: 15px; }
 .portfolio .portfolio-item .portfolio-item-caption {
     -webkit-transition: all ease 0.5s;
     -moz-transition: all ease 0.5s;
     transition: all ease 0.5s;
     opacity: 0;
-    background-color: rgba(114, 28, 36, 0.8); }
+    background-color: rgba(191, 12, 12, 0.8); }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
     opacity: 1; }
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
@@ -236,7 +235,7 @@ header.masthead h2 {
     opacity: 1; }
 
 .floating-label-form-group-with-focus label {
-    color: #721c24 ; }
+    color: #4b4b4b ; }
 
 form .row:first-child .floating-label-form-group {
     border-top: 1px solid #e9ecef; }
@@ -244,14 +243,14 @@ form .row:first-child .floating-label-form-group {
 .footer {
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-color: #2C3E50;
+    background-color: #4c4c4c;
     color: #fff; }
 
 .copyright {
-    background-color: #1a252f; }
+    background-color: #393939; }
 
 a {
-    color: #721c24 ; }
+    color: #4b4b4b ; }
 a:focus, a:hover, a:active {
     color: #68121a; }
 
@@ -259,38 +258,41 @@ a:focus, a:hover, a:active {
     border-width: 2px; }
 
 .bg-primary {
-    background-color: #721c24  !important; }
+    background-color: #4b4b4b  !important; }
 
 .bg-secondary {
-    background-color: #2C3E50 !important; }
+    background-color: #4c4c4c !important; }
 
 .text-primary {
-    color: #721c24  !important; }
+    color: #4b4b4b  !important; }
 
 .text-secondary {
-    color: #2C3E50 !important; }
+    color: #4c4c4c !important; }
 
 .btn-primary {
-    background-color: #721c24 ;
-    border-color: #721c24 ; }
+    background-color: #4b4b4b ;
+    border-color: #4b4b4b ; }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     background-color: #68121a;
     border-color: #68121a; }
 
 .btn-secondary {
-    background-color: #2C3E50;
-    border-color: #2C3E50; }
+    background-color: #4c4c4c;
+    border-color: #4c4c4c; }
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-    background-color: #1a252f;
-    border-color: #1a252f; }
+    background-color: #393939;
+    border-color: #393939; }
 
 /*custom*/
 #mainNav{
-    background-color: #e64040 !important;
+    background-color: #bf0c0c !important;
+    border-bottom: 4px solid #f0c43f;
 }
 
 .navbar-brand {
-    text-shadow: 2px 2px 1px black;
+    text-shadow: 1px 1px 1px black;
+        font-family: Oswald, sans-serif;
+    text-transform: none;
 }
 
 .intro-text{
@@ -301,6 +303,7 @@ header.main-cover {
     background-image: url("../img/lapuntual_2_cuadrado.jpg");
     background-size: cover;
     padding-top: 380px;
+    border-bottom: 4px solid #f0c43f;
 }
 
 @media (min-width: 576px) {
@@ -332,15 +335,19 @@ header.main-cover {
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     header.main-cover {
-        background-image: url("../img/lapuntual_2_d.jpg");
+        background-image: url("../img/camion-bandera.png");
         background-size: cover;
         padding-top: 700px;
     }
 }
 
 section#header{
-    background-color: #721c24 !important;
+    background-color: #4b4b4b !important;
     padding: 40px
+}
+
+.portfolio-item-caption, .portfolio-item img{
+    border-radius: 6px;
 }
 
 .payments-types{
