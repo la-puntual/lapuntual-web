@@ -302,15 +302,15 @@ a:focus, a:hover, a:active {
 }
 
 header.main-cover {
-    background-image: url("../img/lapuntual_2_cuadrado.jpg");
+    background-image: url("../img/camion-bandera-600.png");
     background-size: cover;
-    padding-top: 380px;
+    padding-top: 280px;
     border-bottom: 4px solid #f0c43f;
 }
 
 @media (min-width: 576px) {
     header.main-cover {
-        background-image: url("../img/lapuntual_2_cuadrado.jpg");
+        background-image: url("../img/camion-bandera-800.png");
         background-size: cover;
         padding-top: 400px;
     }
@@ -319,7 +319,7 @@ header.main-cover {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     header.main-cover {
-        background-image: url("../img/lapuntual_2_4-3.jpg");
+        background-image: url("../img/camion-bandera-1000.png");
         background-size: cover;
         padding-top: 500px;
     }
@@ -328,7 +328,7 @@ header.main-cover {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     header.main-cover {
-        background-image: url("../img/lapuntual_2_d.jpg");
+        background-image: url("../img/camion-bandera-1200.png");
         background-size: cover;
         padding-top: 600px;
     }
@@ -337,7 +337,7 @@ header.main-cover {
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     header.main-cover {
-        background-image: url("../img/camion-bandera.png");
+        background-image: url("../img/camion-bandera-1920.png");
         background-size: cover;
         padding-top: 700px;
     }
