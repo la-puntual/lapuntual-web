@@ -25,6 +25,16 @@
     <link href="css/lapuntual.css" rel="stylesheet">
     
     <link rel='shortcut icon' type='image/png' href='img/logo-lp-64.png' />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116455432-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-116455432-1');
+    </script>
 
   </head>
 
@@ -47,13 +57,19 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Servicios</a>
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio" onclick="gtag('event', 'nav_menu', {  'event_category': 'nav',  'event_label': 'Servicios'});">
+                            Servicios
+                        </a>
                     </li>
                     <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Empresa</a>
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about" onclick="gtag('event', 'nav_menu', {  'event_category': 'nav',  'event_label': 'Empresa'});">
+                            Empresa
+                        </a>
                     </li>
                     <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contactanos</a>
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact" onclick="gtag('event', 'nav_menu', {  'event_category': 'nav',  'event_label': 'Contactanos'});">
+                            Contactanos
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -71,7 +87,7 @@
         <hr class="star-dark mb-5">
         <div class="row">
           <div class="col-md-4 text-center">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1" onclick="gtag('event', 'section_services', {  'event_category': 'services',  'event_label': 'Hogares'});">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                   <i class="fa fa-search-plus fa-3x"></i>
@@ -83,7 +99,7 @@
           </div>
           <div class="col-md-4 text-center">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100" onclick="gtag('event', 'section_services', {  'event_category': 'services',  'event_label': 'Empresas'});">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                   <i class="fa fa-search-plus fa-3x"></i>
                 </div>
@@ -93,7 +109,7 @@
             </a>            
           </div>
           <div class="col-md-4 text-center">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3" onclick="gtag('event', 'section_services', {  'event_category': 'services',  'event_label': 'Consejos_Escolares'});">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                   <i class="fa fa-search-plus fa-3x"></i>
@@ -140,12 +156,12 @@
                         <div class="col-md-6">
                             <h4>Teléfonos (Líneas Rotativas)</h4>
                             <div class="row">
-                                <a class="col-md-12" href="tel:011 4664-2178">(011) 4664-2178</a>
-                                <a class="col-md-12" href="tel:011 4451-5765">(011) 4451-5765</a>                                                               
+                                <a class="col-md-12" href="tel:011 4664-2178" onclick="gtag('event', 'phone_click', {  'event_category': 'phone',  'event_label': '(011) 4664-2178'});">(011) 4664-2178</a>
+                                <a class="col-md-12" href="tel:011 4451-5765" onclick="gtag('event', 'phone_click', {  'event_category': 'phone',  'event_label': '(011) 4451-5765'});">(011) 4451-5765</a>                                                               
                             </div>
                             <div class="row">
-                                <a class="col-md-12" href="tel:011 4667-0043">(011) 4667-0043</a>
-                                <a class="col-md-12" href="tel:02320-461049">02320-461049</a>
+                                <a class="col-md-12" href="tel:011 4667-0043" onclick="gtag('event', 'phone_click', {  'event_category': 'phone',  'event_label': '(011) 4667-0043'});">(011) 4667-0043</a>
+                                <a class="col-md-12" href="tel:02320-461049" onclick="gtag('event', 'phone_click', {  'event_category': 'phone',  'event_label': '02320-461049'});">02320-461049</a>
                             </div>                            
                         </div>
                         <div class="col-md-6">
@@ -153,7 +169,7 @@
                             <div>ID: 571*244</div>
                             <h4>Celular</h4>
                             <div>
-                                <a class="col-md-12" href="tel:15-5617-4694">
+                                <a class="col-md-12" href="tel:15-5617-4694" onclick="gtag('event', 'phone_click', {  'event_category': 'phone',  'event_label': 'whatsapp:15-5617-4694'});">
                                     15-5617-4694
                                     <img class="whatsapp-logo" src="img/whatsapp-logo.png"/>
                                 </a>
@@ -162,7 +178,8 @@
                         <div class="col-md-12 text-center">
                             <h4>Email</h4>
                             <div>
-                                <a href="mailto:lapuntual@lapuntual.com.ar"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                <a href="mailto:lapuntual@lapuntual.com.ar" onclick="gtag('event', 'phone_click', {  'event_category': 'phone',  'event_label': 'email:lapuntual@lapuntual.com.ar'});">
+                                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
                                     contacto@<wbr>lapuntual.com.ar
                                 </a>
                             </div>
@@ -184,7 +201,7 @@
             <h4 class="text-uppercase mb-4">Seguinos en</h4>
             <ul class="list-inline mb-0">
               <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.facebook.com/atmosfericos.lapuntual">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.facebook.com/atmosfericos.lapuntual" onclick="gtag('event', 'social_click', {  'event_category': 'social',  'event_label': 'facebook'});">
                   <i class="fa fa-fw fa-facebook"></i>
                 </a>
               </li>
